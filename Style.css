@@ -1,0 +1,156 @@
+body{
+    font-family: Arial;
+    background-color: aliceblue;
+    padding: 40px 0;
+   
+ 
+}
+
+
+h2  {
+    font-size: 22px;
+    font-weight:bold ;
+    
+    }
+span
+    {
+    color: gray;
+    
+
+    }
+h1  {
+    font-size: 24px;
+    margin-bottom: 10px;
+   
+    }
+h3 {
+    margin-top: 5px;
+}
+
+section,
+header {
+    padding: 10px 60px 20px 60px;
+    background-color: white;
+   
+    
+    
+}
+
+header  {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 80px;
+   
+}
+
+header ul {
+    list-style: none;
+}
+
+
+
+.addres-icon {
+    width: 16px;
+    height:16px;
+    background-color: cornflowerblue;
+    margin-right: 10px;
+    padding: 8 px;
+    vertical-align: middle;
+    }
+.circle {
+    border-radius: 50%;
+    box-shadow: 0 0  20px gray;
+}
+.profile-piture{
+    width: 20%;
+    height: 20%;
+}
+.hobby{
+    list-style: none;
+    padding:0 ;
+    display: flex;
+    flex-wrap: wrap;
+}
+.hobby li {
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+.hobby div {
+    margin-left: 20px;
+}
+.hobby p {
+    color: gray;
+    line-height: 1.5;
+}
+p{
+    line-height: 1.5;
+}
+
+.cv-dowload-link {
+    border: 2px solid cornflowerblue;
+    color: black;
+    text-decoration: none ;
+    padding: 10px 20px;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 26px;
+    transition: background-color 0.5s,color 0.5s;
+    box-shadow: 0 0  20px gray;
+    margin-left: 40px;
+   
+}
+.cv-dowload-link:hover {
+    color: white;
+    background-color: cornflowerblue;
+    
+}
+.cv-dowload-link:focus{
+    outline: none;
+    color: white;
+    background-color: cornflowerblue;
+}
+.cv-dowload-link:active{
+    text-decoration: underline;
+}
+.containet{
+    box-shadow: 0 0  20px gray;
+    width: 1020px;
+    margin: auto;
+}
+.wciecie {
+    margin: 10px;
+}
+.Pic_attachment {
+     
+    width:20px;
+    height:20px;
+    padding: 8 px;
+    margin-top: 15px;
+    vertical-align:auto;
+    border: 2px solid cornflowerblue;
+    border-radius: 6px;
+    transition: background-color 0.5s,color 0.5s;
+    box-shadow: 0 0  20px gray;
+    margin-left: 10px
+    
+    
+    ;}
+
+    .Pic_attachment:hover {
+        color: white;
+        background-color: cornflowerblue;
+        
+    }
+    .Pic_attachment:focus{
+        outline: none;
+        color: white;
+        background-color: cornflowerblue;
+    }
+    .Pic_attachment:active{
+        text-decoration: underline;
+    }
+    
+
